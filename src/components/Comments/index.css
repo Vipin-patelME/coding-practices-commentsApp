@@ -1,0 +1,73 @@
+/* Write your CSS here */
+.bg-container {
+  min-height: 100vh;
+  background-size: cover;
+  background-color: #ffffff;
+}
+.main-heading {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-weight: 510;
+  padding: 80px;
+}
+.main-para {
+  padding-left: 80px;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.userNameInput {
+  padding-left: 10px;
+  height: 35px;
+  width: 60%;
+  margin-left: 80px;
+}
+.userCommentInput {
+  font-family: 'Roboto';
+  padding-left: 10px;
+  min-height: 250px;
+  width: 60%;
+  margin-left: 80px;
+  margin-top: 10px;
+  text-align: start;
+}
+.btn-style {
+  color: #ffffff;
+  height: 35px;
+  width: 130px;
+  border-radius: 5px;
+  background-color: #0284c7;
+  margin-left: 80px;
+  margin-top: 20px;
+}
+.comment-image {
+  height: 300px;
+  width: 400px;
+}
+.comment-count-container {
+  display: flex;
+}
+
+.span-bg {
+  text-align: center;
+  height: 20px;
+  width: 25px;
+  color: #ffffff;
+  font-weight: 510;
+  background-color: #0284c7;
+  margin-left: 230px;
+  border-radius: 3px;
+}
+.comment-style {
+  margin-left: 15px;
+}
+
+.user-comment-container {
+  list-style-type: none;
+  background-color: #ffffff;
+  margin-left: 160px;
+}
